@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="springboot_test@localhost" uuid="7209ac9d-75c5-49de-b8b8-8bce10a85917">
-      <database-info product="MySQL" version="5.5.33" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+    <data-source name="springboot_study@localhost" uuid="4f7ccdeb-08bd-421f-b8e4-af5353cf3459">
+      <database-info product="MySQL" version="5.5.33" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )" family="MYSQL" exact-version="5.5.33">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <resolve-scope>springboot_test:</resolve-scope>
+      <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>
 </project>
