@@ -11,7 +11,7 @@
 //@Component
 //@Async
 //public class ScheduledServiceTest {
-//    private static final Logger log = LoggerFactory.getLogger(ScheduledServiceTest.class);
+//    private templates final Logger log = LoggerFactory.getLogger(ScheduledServiceTest.class);
 //    @Scheduled(cron = "0/5 * * * * *")
 //    public void scheduled(){
 //        log.info("=====>>>>>使用cron  {}",System.currentTimeMillis());

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />
+    <style>
+        .content{
+            background-color: rgb(61,55,67)
+        }
+        .navbar-n{
+            background-color: rgb(61,55,67)
+        }
+        .search{
+            margin-top: -25px;
+            margin-left: 950px;
+            font-size: 16px;
+            color: white
+        }
+        .content{
+            margin-top: -30px;
+            margin-left: 1050px;
+            font-size: 16px;
+            color: white
+        }
+        .user{
+            margin-top: -30px;
+            margin-left: 1150px;
+            width: 20px;
+            height: 20px
+        }
+        .login{
+            margin-top: -20px;
+            margin-left: 1177px;
+            font-size: 16px;
+            color: white
+        }
+        .wechat{
+            margin-top: -30px;
+            margin-left: 1300px;
+            width: 30px;
+            height: 30px
+        }
+        .weibo{
+            margin-top: -28px;
+            margin-left: 1340px;
+            width: 30px;
+            height: 30px
+        }
+        .twitter{
+            margin-top: -28px;
+            margin-left: 1380px;
+        }
+        .ins{
+            margin-top: -28px;
+            margin-left: 1420px;
+        }
+        .form{
+            height: 710px;
+        }
+        .panell{
+            margin-left: 560px;
+            margin-top: 150px;
+            width: 400px;
+            height: 342px;
+            background-color: rgb(88,76,96);
+            border-color: rgb(88,76,96)
+        }
+        .loginn{
+            font-size: 18px;
+            color: white;
+        }
+        .register{
+            margin-top: -36px;
+            margin-left: 50px;
+            font-size: 18px;
+            color: rgb(37,31,42)
+        }
+        .inputt{
+            height: 45px;
+            background-color: rgb(69,61,75);
+            border-color: rgb(69,61,75)
+        }
+        .input2{
+            color: white;
+            height: 45px;
+            background-color: rgb(69,61,75);
+            border-color: rgb(69,61,75);
+            width: 300px
+        }
+        .inputtt{
+            height: 45px;
+            background-color: rgb(69,61,75);
+            border-color: rgb(69,61,75);
+        }
+        .password{
+            height: 45px;
+            background-color: rgb(69,61,75);
+            border-color: rgb(69,61,75);
+            width: 308px;
+            color: white;
+        }
+        .foot{
+            background-color: rgb(221,221,221);
+            height: 90px
+        }
+        .way{
+            margin-left: 110px;
+            margin-top: 20px;
+            color: rgb(141,135,147);
+            font-size: 12px
+        }
+        .qq{
+            width: 18px;
+            height: 18px;
+            margin-left: 210px;
+            margin-top: -57px
+        }
+        .weibo1{
+            margin-top: -57px;
+            margin-left: 10px;
+        }
+
+
+    </style>
+</head>
+<body class="content">
+<div>
+    <nav class="navbar navbar-default navbar-n">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="https://staticweb.keepcdn.com/showstatic/images/logo-16fc21eba7.png">
+                    <p class="search">发现精选</p>
+                    <p class="content">课程内容</p>
+                    <img src="img/user.png" class="user">
+                    <p class="login">登录/注册</p>
+                    <img src="img/wechat.png" class="wechat">
+                    <img src="img/weibo.png" class="weibo">
+                    <img src="img/twitter.png" class="twitter">
+                    <img src="img/ins.png" class="ins">
+                </a>
+            </div>
+        </div>
+
+        <form action="/SportUser" method="post" id="login" class="form">
+            <div class="panel panel-default panell" >
+                <div class="panel-body">
+                    <table>
+                        <tr>
+                            <td>
+                                <p class="loginn">登录</p>
+                                <p class="register">注册</p>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="input-group" >
+                                    <span  class="input-group-addon inputt" id="basic-addon1">+86</span>
+                                    <input type="text" name="account" class="form-control input2" placeholder="账号" >
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                        <td height="30px"></td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <div class="input-group" >
+                                    <span class="input-group-addon inputtt" id="basic-addon2" >
+                                        <img src="img/password.png">
+                                    </span>
+                                    <input  type="password" name="password" class="form-control password" placeholder="密码" >
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 30px"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button style="width: 350px" type="submit" id="button" class="btn btn-success">登录</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="panel-footer foot">
+                    <p class="way">其他登录方式:</p>
+                    <img src="img/qq.png" class="qq">
+                    <img src="img/weibo.png" class="weibo1">
+                </div>
+            </div>
+        </form>
+</div>
+</body>
+</html>

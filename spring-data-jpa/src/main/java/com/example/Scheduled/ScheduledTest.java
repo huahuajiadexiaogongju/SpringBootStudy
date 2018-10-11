@@ -11,7 +11,7 @@
 // */
 //@Component
 //public class ScheduledTest {
-//    private static final Logger logger = LoggerFactory.getLogger(ScheduledTest.class);
+//    private templates final Logger logger = LoggerFactory.getLogger(ScheduledTest.class);
 //    @Scheduled(cron="0 0/2 8-20 * * ?")
 //    public void executeFileDownLoadTask() {
 //        // 间隔2分钟,执行工单上传任务

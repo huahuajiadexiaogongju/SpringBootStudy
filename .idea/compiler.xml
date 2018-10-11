@@ -9,6 +9,7 @@
         <module name="quartz" />
         <module name="quickstart" />
         <module name="spring-data-jpa" />
+        <module name="spring_boot_websocket" />
         <module name="sysuser" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="quartz" target="1.8" />
       <module name="quickstart" target="1.8" />
       <module name="spring-data-jpa" target="1.8" />
+      <module name="spring_boot_websocket" target="1.8" />
       <module name="sysuser" target="1.8" />
     </bytecodeTargetLevel>
   </component>

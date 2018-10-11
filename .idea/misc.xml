@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/spring-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/sysuser/pom.xml" />
         <option value="$PROJECT_DIR$/quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot_websocket/pom.xml" />
       </list>
     </option>
   </component>
